@@ -10,3 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+total_consumido = input("qual o valor consumido no restaurante em R$?")
+resultado = (float(total_consumido)/100)*10
+resultado2 = float(resultado)+float(total_consumido)
+print(f"o valor da conta deu {resultado2:.2f}R$")
