@@ -9,3 +9,10 @@ Leia 3 valores de ponto flutuante (A, B e C) de uma equação do 2º grau.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+print ("f(x)=Ax²+Bx+C")
+valor = float(input ("Selecioe um valor para A:"))
+if (valor)<=0:
+    print("Impossível calcular")
+valor = float(input ("Selecioe um valor para B:"))
+valor = float(input ("Selecioe um valor para C:"))
+reposta = 
