@@ -9,3 +9,12 @@ cujo resto da divisão por 5 seja igual a 2 ou igual a 3.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+X = int(input("Digite o valor de x:"))
+Y = int(input("Digite o valor de y:"))
+
+inicio = min(X, Y)
+fim = max(X, Y)
+
+for numero in range(inicio, fim + 1):
+    if numero % 5 == 2 or numero % 5 == 3:
+        print(numero)
