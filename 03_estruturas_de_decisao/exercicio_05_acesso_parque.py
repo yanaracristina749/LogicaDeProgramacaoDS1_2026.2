@@ -18,3 +18,11 @@ if idade_visitante < 12:
     valor_final = 100.00 * 0.50
 elif idade_visitante >= 60:
     tipo_bilhete = "Melhor Idade"
+    valor_final = 0.00
+else:
+    tipo_bilhete = "Integral"
+    valor_final = 100.00
+
+
+print(f"Tipo de bilhete: {tipo_bilhete}")
+print(f"Valor final a pagar: R$ {valor_final:.2f}")
