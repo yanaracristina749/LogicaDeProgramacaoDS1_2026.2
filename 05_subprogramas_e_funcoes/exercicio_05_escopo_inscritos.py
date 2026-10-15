@@ -9,3 +9,11 @@ para atualizar a variável. Demonstre o valor de total_inscritos antes e depois 
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+total_inscritos = 0
+def inscrever_aluno(quantidade):
+    global total_inscritos
+    total_inscritos = quantidade
+    return total_inscritos
+quantidade = int(input ("Digite a quantidade de alunos inscritos:"))
+print("Antes da chamada:", total_inscritos)
+print("Depois da chamada:", inscrever_aluno(quantidade))
